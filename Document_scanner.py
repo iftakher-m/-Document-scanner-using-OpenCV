@@ -1,16 +1,8 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[82]:
-
+# This is a jupyter notebook file exported as a python script and then uploaded to this repo.(hence, ignore the lines having '#In[ ]') 
 
 # import the necessary packages
 from pyimagesearch.transform import four_point_transform 
 from skimage.filters import threshold_local
-
-
-# In[83]:
-
 
 import numpy as np
 import cv2
@@ -110,13 +102,13 @@ warped_black= (T>warped).astype('uint8')* 255 # This will produce a black backgr
 # In[90]:
 
 
-warped 
+print(warped) 
 
 
 # In[91]:
 
 
-T
+print(T) 
 
 
 # In[92]:
