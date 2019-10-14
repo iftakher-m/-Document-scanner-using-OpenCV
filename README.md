@@ -1,1 +1,1 @@
-# Document-scanner-using-OpenCV
+# Document scanner using OpenCV
